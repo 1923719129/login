@@ -1,0 +1,42 @@
+#login {  // 最外层样式
+    width: 420px;
+    height: auto;
+    background: #004882;//组件主颜色
+    margin: 10% 60%;
+    border-radius: 10px 10px 10px 10px;//圆角设置
+    background-image: url('../components/img/image1.png');//引入图片
+    background-size: 1000px;//设置图片大小
+    background-repeat: no-repeat;//是否重复显示
+    background-position: -330px -88px;//设置图片位置
+    .head {  //登录账号、注册账号的切换大div
+        width: 100%;
+        font-size: 25px;   
+        display: inline-flex;//开启布局
+        flex-wrap: wrap;//自动换行
+        margin: 20px 42px;//总体位置布局
+        gap: 15px;//相距距离编辑
+        text-align: center;//文字居中
+        color: #336D9B;
+        z-index: 3;//层级关系
+        .text { //动态class的变换颜色样式
+            color: #D6DEE0;
+        }
+        .login_text {  //登录账号样式
+            // width: 30%;
+            cursor: pointer;
+        }
+        .l { //中间的竖线
+            // width: 10px;
+            // margin: 0 0px;
+            color: #D6DEE0;
+        }
+        .page_text {  //注册账号的样式
+            // width: 30%;
+            // color: #336D9B;
+            cursor: pointer;
+        }
+    }
+    .router { //router路由样式
+        margin: 10px 10px;
+    }
+}
